@@ -1,11 +1,231 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="fr">
 <head>
-  <title>Privacy Policy - Hello App</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>NkaSorro — Politique de Confidentialité / Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #F7F3E9;
+      --primary: #0B5394;
+      --primary-dark: #062a4d;
+      --accent: #F4B816;
+      --text: #1a2540;
+      --text-light: #5b6b7f;
+      --border: #e5e7eb;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; color: var(--text); background: var(--bg); line-height: 1.6; }
+    .container { max-width: 780px; margin: 0 auto; padding: 32px 24px 80px; }
+    header { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: white; padding: 36px 24px; border-radius: 16px; margin-bottom: 40px; }
+    header h1 { margin: 0 0 8px; font-size: 28px; font-weight: 800; letter-spacing: -0.5px; }
+    header p { margin: 0; opacity: 0.85; font-size: 14px; }
+    .lang-switch { display: flex; gap: 8px; margin-bottom: 24px; }
+    .lang-switch a { flex: 1; text-align: center; padding: 10px 16px; background: white; color: var(--primary); text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 14px; border: 1px solid var(--border); transition: all 0.2s; }
+    .lang-switch a:hover, .lang-switch a.active { background: var(--primary); color: white; border-color: var(--primary); }
+    .meta { background: white; padding: 16px 20px; border-radius: 12px; border: 1px solid var(--border); margin-bottom: 24px; font-size: 14px; color: var(--text-light); }
+    .meta strong { color: var(--text); }
+    h2 { color: var(--primary); margin-top: 40px; margin-bottom: 12px; font-size: 22px; font-weight: 700; letter-spacing: -0.3px; }
+    h3 { color: var(--text); margin-top: 28px; margin-bottom: 8px; font-size: 16px; font-weight: 700; }
+    p, ul { font-size: 15px; }
+    ul { padding-left: 22px; }
+    li { margin-bottom: 6px; }
+    .pill { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; }
+    .pill-yes { background: #d1fae5; color: #065f46; }
+    .pill-no { background: #fee2e2; color: #991b1b; }
+    .highlight { background: linear-gradient(90deg, rgba(244,184,22,0.15), transparent); padding: 16px 18px; border-left: 4px solid var(--accent); border-radius: 6px; margin: 16px 0; }
+    .contact { background: var(--primary); color: white; padding: 20px; border-radius: 12px; margin-top: 40px; }
+    .contact a { color: var(--accent); text-decoration: none; font-weight: 600; }
+    .contact a:hover { text-decoration: underline; }
+    .lang-section { display: none; }
+    .lang-section.active { display: block; }
+    footer { margin-top: 48px; text-align: center; color: var(--text-light); font-size: 13px; }
+  </style>
 </head>
 <body>
-  <h2>Privacy Policy</h2>
-  <p>Hello App ne collecte, ne stocke et ne partage aucune donnée personnelle.</p>
-  <p>Développé par Dembes24 © 2025</p>
+  <div class="container">
+    <header>
+      <h1>NkaSorro</h1>
+      <p>Politique de Confidentialité · Privacy Policy</p>
+    </header>
+
+    <div class="lang-switch">
+      <a href="#fr" class="active" id="btn-fr" onclick="show('fr')">🇫🇷 Français</a>
+      <a href="#en" id="btn-en" onclick="show('en')">🇬🇧 English</a>
+    </div>
+
+    <!-- ─────── VERSION FRANÇAISE ─────── -->
+    <section class="lang-section active" id="section-fr">
+      <div class="meta">
+        <p style="margin:0"><strong>Application :</strong> NkaSorro — Calculateur ITS Mali<br>
+        <strong>Éditeur :</strong> Ibrahim Dembele<br>
+        <strong>Date d'effet :</strong> 16 mai 2026<br>
+        <strong>Dernière mise à jour :</strong> 16 mai 2026</p>
+      </div>
+
+      <h2>1. Introduction</h2>
+      <p>NkaSorro est une application mobile gratuite et hors ligne qui permet de calculer l'Impôt sur les Traitements et Salaires (ITS) selon le système fiscal malien. La présente politique décrit de manière transparente comment vos données sont traitées par l'application.</p>
+
+      <div class="highlight">
+        <strong>En résumé :</strong> NkaSorro ne collecte aucune donnée personnelle, ne nécessite aucune connexion Internet, n'utilise aucun tracker et n'affiche aucune publicité. Toutes les données restent stockées localement sur votre appareil.
+      </div>
+
+      <h2>2. Données collectées par NkaSorro</h2>
+      <p>NkaSorro <strong>ne collecte aucune donnée personnelle</strong>. L'application fonctionne entièrement hors ligne après l'installation.</p>
+
+      <h3>Ce que NkaSorro NE fait PAS</h3>
+      <ul>
+        <li><span class="pill pill-no">NON</span> &nbsp; Aucune connexion Internet n'est requise au fonctionnement</li>
+        <li><span class="pill pill-no">NON</span> &nbsp; Aucun compte utilisateur n'est nécessaire</li>
+        <li><span class="pill pill-no">NON</span> &nbsp; Aucune publicité n'est diffusée</li>
+        <li><span class="pill pill-no">NON</span> &nbsp; Aucun tracker, SDK analytics ou outil de mesure n'est intégré</li>
+        <li><span class="pill pill-no">NON</span> &nbsp; Aucune donnée n'est transmise à des serveurs tiers ou à l'éditeur</li>
+        <li><span class="pill pill-no">NON</span> &nbsp; Aucun identifiant publicitaire (AAID Android, IDFA Apple) n'est lu</li>
+        <li><span class="pill pill-no">NON</span> &nbsp; Aucune donnée biométrique ni de localisation n'est utilisée</li>
+      </ul>
+
+      <h2>3. Données stockées localement sur votre appareil</h2>
+      <p>Les seules données traitées par NkaSorro sont stockées <strong>exclusivement sur votre appareil</strong>, dans une base de données locale chiffrée (Hive). Il s'agit de :</p>
+      <ul>
+        <li>Les calculs ITS que vous choisissez d'enregistrer dans l'historique (salaire brut, situation familiale, résultat du calcul)</li>
+        <li>Vos préférences applicatives (taux AMO sélectionné, catégorie d'indemnité)</li>
+      </ul>
+      <p>Ces données <strong>ne quittent jamais votre appareil</strong> et ne sont accessibles que par l'application NkaSorro elle-même.</p>
+
+      <h2>4. Permissions système utilisées</h2>
+      <p>NkaSorro demande uniquement les permissions strictement nécessaires à son fonctionnement :</p>
+      <ul>
+        <li><span class="pill pill-yes">UTILISÉE</span> &nbsp; <strong>Stockage interne</strong> — pour sauvegarder l'historique des calculs et générer les fichiers PDF</li>
+        <li><span class="pill pill-yes">UTILISÉE</span> &nbsp; <strong>Partage de fichiers</strong> — pour exporter les bulletins PDF vers d'autres applications (email, messagerie, cloud)</li>
+      </ul>
+      <p>NkaSorro ne demande <strong>pas</strong> les permissions suivantes : Internet, contacts, localisation, caméra, microphone, SMS, appels, calendrier, photos.</p>
+
+      <h2>5. Sécurité des données</h2>
+      <p>Vos données restent sur votre appareil et bénéficient des mécanismes de sécurité natifs de votre système d'exploitation (Android / iOS). Le stockage local Hive utilise un format binaire compact qui n'est pas trivialement lisible en dehors de l'application.</p>
+
+      <h2>6. Suppression de vos données</h2>
+      <p>Vous pouvez supprimer vos données à tout moment :</p>
+      <ul>
+        <li>Via le bouton "Supprimer tout l'historique" dans l'écran Historique de l'application</li>
+        <li>Via la suppression individuelle d'une entrée (appui long sur une ligne d'historique)</li>
+        <li>En désinstallant l'application — toutes les données locales sont alors définitivement supprimées</li>
+      </ul>
+
+      <h2>7. Données concernant les enfants</h2>
+      <p>NkaSorro est destinée à un public adulte (salariés, contribuables). L'application n'est pas spécifiquement conçue pour les enfants de moins de 13 ans. Cela dit, étant donné qu'aucune donnée n'est collectée, aucun risque spécifique ne se pose pour les mineurs.</p>
+
+      <h2>8. Conformité réglementaire</h2>
+      <p>Cette application est conforme aux principes de protection des données suivants :</p>
+      <ul>
+        <li><strong>RGPD</strong> (Règlement Général sur la Protection des Données) — aucune donnée personnelle traitée</li>
+        <li><strong>Politique de Google Play</strong> — Data Safety déclarée comme "aucune donnée collectée ni partagée"</li>
+        <li><strong>Lois maliennes</strong> sur la protection des données personnelles</li>
+      </ul>
+
+      <h2>9. Modifications de cette politique</h2>
+      <p>Toute modification substantielle de cette politique sera publiée à cette même adresse, accompagnée d'une mise à jour de la date "Dernière mise à jour" en tête de page. Nous vous encourageons à consulter cette page régulièrement.</p>
+
+      <h2>10. Contact</h2>
+      <div class="contact">
+        <p style="margin:0 0 8px 0;font-weight:600">Pour toute question relative à cette politique de confidentialité :</p>
+        <p style="margin:0">📧 <a href="mailto:dev.dembes24@gmail.com">dev.dembes24@gmail.com</a></p>
+      </div>
+    </section>
+
+    <!-- ─────── ENGLISH VERSION ─────── -->
+    <section class="lang-section" id="section-en">
+      <div class="meta">
+        <p style="margin:0"><strong>Application:</strong> NkaSorro — Mali ITS Tax Calculator<br>
+        <strong>Publisher:</strong> Ibrahim Dembele<br>
+        <strong>Effective date:</strong> May 16, 2026<br>
+        <strong>Last updated:</strong> May 16, 2026</p>
+      </div>
+
+      <h2>1. Introduction</h2>
+      <p>NkaSorro is a free, offline mobile application that calculates the Tax on Salaries and Wages (ITS — <em>Impôt sur les Traitements et Salaires</em>) according to the Malian tax system. This policy transparently describes how your data is handled by the app.</p>
+
+      <div class="highlight">
+        <strong>In short:</strong> NkaSorro collects no personal data, requires no Internet connection, uses no trackers, and displays no ads. All data remains stored locally on your device.
+      </div>
+
+      <h2>2. Data collected by NkaSorro</h2>
+      <p>NkaSorro <strong>collects no personal data</strong>. The application runs entirely offline after installation.</p>
+
+      <h3>What NkaSorro does NOT do</h3>
+      <ul>
+        <li><span class="pill pill-no">NO</span> &nbsp; No Internet connection required to function</li>
+        <li><span class="pill pill-no">NO</span> &nbsp; No user account needed</li>
+        <li><span class="pill pill-no">NO</span> &nbsp; No advertisements served</li>
+        <li><span class="pill pill-no">NO</span> &nbsp; No trackers, analytics SDKs, or measurement tools integrated</li>
+        <li><span class="pill pill-no">NO</span> &nbsp; No data transmitted to third-party servers or to the publisher</li>
+        <li><span class="pill pill-no">NO</span> &nbsp; No advertising identifier (Android AAID, Apple IDFA) read</li>
+        <li><span class="pill pill-no">NO</span> &nbsp; No biometric or location data used</li>
+      </ul>
+
+      <h2>3. Data stored locally on your device</h2>
+      <p>The only data processed by NkaSorro is stored <strong>exclusively on your device</strong>, in a local database (Hive). This includes:</p>
+      <ul>
+        <li>The ITS calculations you choose to save in your history (gross salary, family situation, calculation result)</li>
+        <li>Your application preferences (selected AMO rate, indemnity category)</li>
+      </ul>
+      <p>This data <strong>never leaves your device</strong> and is accessible only by the NkaSorro application itself.</p>
+
+      <h2>4. System permissions used</h2>
+      <p>NkaSorro only requests permissions strictly necessary for its operation:</p>
+      <ul>
+        <li><span class="pill pill-yes">USED</span> &nbsp; <strong>Internal storage</strong> — to save calculation history and generate PDF files</li>
+        <li><span class="pill pill-yes">USED</span> &nbsp; <strong>File sharing</strong> — to export PDF receipts to other applications (email, messaging, cloud)</li>
+      </ul>
+      <p>NkaSorro does <strong>not</strong> request the following permissions: Internet, contacts, location, camera, microphone, SMS, calls, calendar, photos.</p>
+
+      <h2>5. Data security</h2>
+      <p>Your data remains on your device and benefits from the native security mechanisms of your operating system (Android / iOS). The local Hive storage uses a compact binary format that is not trivially readable outside the application.</p>
+
+      <h2>6. Deletion of your data</h2>
+      <p>You can delete your data at any time:</p>
+      <ul>
+        <li>Via the "Delete all history" button in the History screen of the application</li>
+        <li>Via individual deletion of an entry (long-press on a history row)</li>
+        <li>By uninstalling the application — all local data is then permanently deleted</li>
+      </ul>
+
+      <h2>7. Data concerning children</h2>
+      <p>NkaSorro is intended for an adult audience (employees, taxpayers). The application is not specifically designed for children under 13. However, since no data is collected, no specific risk arises for minors.</p>
+
+      <h2>8. Regulatory compliance</h2>
+      <p>This application complies with the following data protection principles:</p>
+      <ul>
+        <li><strong>GDPR</strong> (EU General Data Protection Regulation) — no personal data processed</li>
+        <li><strong>Google Play Policy</strong> — Data Safety declared as "no data collected or shared"</li>
+        <li><strong>Mali laws</strong> on personal data protection</li>
+      </ul>
+
+      <h2>9. Changes to this policy</h2>
+      <p>Any substantial changes to this policy will be published at this same URL, accompanied by an updated "Last updated" date at the top of the page. We encourage you to review this page regularly.</p>
+
+      <h2>10. Contact</h2>
+      <div class="contact">
+        <p style="margin:0 0 8px 0;font-weight:600">For any question regarding this privacy policy:</p>
+        <p style="margin:0">📧 <a href="mailto:dev.dembes24@gmail.com">dev.dembes24@gmail.com</a></p>
+      </div>
+    </section>
+
+    <footer>
+      <p>NkaSorro — Calcul ITS Mali · Édition avril 2020 (DGI)<br>
+      © 2026 Ibrahim Dembele · Tous droits réservés</p>
+    </footer>
+  </div>
+
+  <script>
+    function show(lang) {
+      document.querySelectorAll('.lang-section').forEach(s => s.classList.remove('active'));
+      document.getElementById('section-' + lang).classList.add('active');
+      document.querySelectorAll('.lang-switch a').forEach(a => a.classList.remove('active'));
+      document.getElementById('btn-' + lang).classList.add('active');
+      document.documentElement.lang = lang;
+    }
+    // Activate from URL hash if present
+    if (location.hash === '#en') show('en');
+  </script>
 </body>
 </html>
